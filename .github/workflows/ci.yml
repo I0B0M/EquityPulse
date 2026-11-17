@@ -22,9 +22,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install fastapi==0.111.0 "uvicorn[standard]==0.29.0" scipy==1.13.0 prometheus-client==0.20.0 httpx==0.27.0
+        run: pip install -r requirements.txt
 
       - name: Run risk engine tests
         run: python -m risk.test_metrics
