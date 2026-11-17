@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import {
   ScatterChart, Scatter, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, ReferenceDot, Legend,
+  Tooltip, ResponsiveContainer, ReferenceDot,
 } from 'recharts'
 import { useApi } from '../hooks/useApi'
 import { api } from '../api/client'
